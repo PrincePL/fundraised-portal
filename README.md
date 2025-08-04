@@ -18,11 +18,12 @@ It displays dummy intern data like name, referral code, donation amount, and rew
 ## 📸 Screenshots
 
 ### ✅ Dashboard
-![Dashboard Screenshot](screenshots/dashboard.png)
+![Dashboard Screenshot]
 <img width="1009" height="641" alt="image" src="https://github.com/user-attachments/assets/72ca8a06-98fa-4978-b8ff-2ceace6376f9" />
 
 ### ✅ Dummy Login Page
-![Login Screenshot](screenshots/login.png)
+
+<img width="830" height="569" alt="image" src="https://github.com/user-attachments/assets/681c87b9-7f42-4ea8-9d00-8645c063650a" />
 
 ---
 
