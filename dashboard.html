@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Intern Dashboard</title>
+    <link rel="stylesheet" href="assets/dashboard.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome, <span id="internName">Loading...</span></h1>
+        <p>Referral Code: <strong id="referralCode">--</strong></p>
+        <p>Total Donations Raised: ₹<strong id="donationAmount">0</strong></p>
+
+        <h2>Rewards</h2>
+        <ul>
+            <li>T-shirt unlocked at Rs-1000</li>
+            <li>Badge unlocked at Rs-5000</li>
+            <li>Trophy unlocked at Rs-10,000</li>
+        </ul>
+    </div>
+    <script>
+        fetch('api/intern.php')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('internName').textContent = data.name;
+                document.getElementById('referralCode').textContent = data.referralCode;
+                document.getElementById('donationAmount').textContent = data.donationAmount;
+            });
+    </script>
+</body>
+
+</html>
