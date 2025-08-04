@@ -11,7 +11,7 @@ It displays dummy intern data like name, referral code, donation amount, and rew
 ## 🚀 Live Demo
 
 🔗 [Live Site Link](https://fundraised.netlify.app/)) *(replace this with your Netlify/GitHub Pages link)*  
-📦 [GitHub Repository](https://github.com/your-username/intern-portal-php)
+📦 [GitHub Repository](https://github.com/PrincePL/fundraised-portal))
 
 ---
 
